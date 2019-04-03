@@ -1,0 +1,200 @@
+body {
+    font: Arial, Helvetica, sans-serif;
+}
+#container {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+#header {
+    height: 100px;
+    padding: 10px 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 a {
+    font-size: 50px;
+    font-weight: 100;
+    color: darkorchid;
+}
+
+#brand {
+    float: left;
+}
+
+#searchBox {
+    float: right;
+    background: linear-gradient(beige, yellowgreen);
+    background: -webkit-linear-gradient(beige, yellowgreen);
+    background: -o-linear-gradient(beige, yellowgreen);
+    background: -moz-linear-gradient(beige, yellowgreen);
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: 20px;
+    
+}
+
+.text {
+    border: 1px solid gold;
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: darkorchid ;
+    background: white url("images/search.png") right center no-repeat;
+    background-size: 20px;
+}
+
+.submit {
+    float: right;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    background-color: darkorchid;
+    font-size: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+ul {
+    list-style: none;
+}
+
+#menu, .footer {
+    background: linear-gradient(beige, gold);
+    background: -webkit-linear-gradient(beige, gold);
+    background: -o-linear-gradient(beige, gold);
+    background: -moz-linear-gradient(beige, gold);
+}
+
+#menu {
+    height: 70px;
+    padding: 5px 0;
+}
+
+#menu ul li {
+    float: left;
+    padding: 0 30px;
+    height: 30px;
+    border-right: 1px solid mediumblue;
+
+}
+
+#menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: mediumblue;
+    line-height: 30px;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+#menu ul li:last-child {
+    border-right: none;
+}
+
+#menu ul li a:hover, #menu ul li a.active {
+    font-size: 20px;
+    font-weight: bold;
+    color: darkorchid;
+}
+
+#introduction {
+    background: linear-gradient(beige, yellowgreen);
+    background: -webkit-linear-gradient(beige, yellowgreen);
+    background: -o-linear-gradient(beige, yellowgreen);
+    background: -moz-linear-gradient(beige, yellowgreen);
+    padding: 30px;
+    margin: 15px 0;
+}
+
+#introduction h3 {
+    font-size: 45px;
+    color: darkgreen;
+    font-weight: normal;
+}
+
+#introduction p {
+    font-size: 25px;
+    color: darkslategrey;
+    text-align: justify;
+}
+.sidebar {
+    height: 500px;
+    width: 450px;
+    border: 1px solid yellowgreen;
+    border-radius: 20px;
+    padding: 10px 30px;
+}
+
+.sidebar h3 {
+    color: darkorchid;
+    font-size: 30px;
+}
+
+.sidebar ul {
+    padding-top: 8px;
+}
+
+.sidebar ul li a {
+    font-size: 20px;
+    color: mediumblue;
+}
+
+.sidebar ul li a:hover {
+    font-size: 20px;
+    color: darkorchid;
+    font-size: 23px;
+    font-weight: bold;
+    -webkit-transition: font-size 0.3s ease;
+    -moz-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+
+.sidebar ul li {
+    padding-left: 40px;
+    padding-bottom: 6px;
+}
+
+#leftSidebar {
+    float: left;
+}
+
+#leftSidebar ul li {
+    background: white url("images/right_arrow.png") left top no-repeat;
+    background-size: 20px;
+}
+
+#rightSidebar {
+    float: right;
+}
+
+#rightSidebar ul li {
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background: white url("images/tick.png") left center no-repeat;
+    background-size: 30px;
+}
+
+
+#rightSidebar ul li a {
+    padding-left: 20px;
+}
+
+.footer {
+    height: 60px;
+    padding: 10px 30px;
+    margin-top: 15px;
+}
